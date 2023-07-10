@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    font-family: "Open Sans", sans-serif;
+}
+
+/* common styles */
+.section-full {
+    width: 100%;
+}
+
+.btn-primary {
+    border-radius: 5px;
+    background: #996194;
+    border: 0;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 20px;
+}
+
+.btn-primary:hover {
+    background: #fff;
+    color: #996194;
+    cursor: pointer;
+}
+
+.section-with-padding {
+    padding: 60px 240px;
+}
+
+/* navbar */
+.navbar {
+    height: 80px;
+    background-color: #b30d27;
+}
+
+.nav-title {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.text-primary {
+    color: #996194;
+}
+
+nav > ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/* banner */
+.banner {
+    background: rgba(229, 84, 115, 0.1);
+    background-image: url("./FlowerAsset/pngwing10.png");
+    background-repeat: no-repeat;
+    background-position: 85% 100%;
+    background-size: 480px;
+    padding: 150px 970px 150px 200px;
+}
+
+.banner-content {
+    width: 550px;
+}
+
+.banner-title {
+    color: #272727;
+    font-size: 55px;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+.section-description {
+    color: rgba(39, 39, 39, 0.6);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.banner-img {
+    height: 500px;
+}
+
+.btn-secondary {
+    border-radius: 5px;
+    background: #e55473;
+    border: 0;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 20px;
+}
+
+.btn-secondary:hover {
+    background: #fff;
+    color: #e55473;
+    cursor: pointer;
+}
