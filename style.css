@@ -42,6 +42,13 @@ body {
     margin-bottom: 15px;
 }
 
+.section-description {
+    color: rgba(39, 39, 39, 0.6);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
 /* navbar */
 .navbar {
     height: 80px;
@@ -97,13 +104,6 @@ nav a {
     color: #272727;
     font-size: 55px;
     font-weight: 800;
-    margin-bottom: 15px;
-}
-
-.section-description {
-    color: rgba(39, 39, 39, 0.6);
-    font-size: 18px;
-    font-weight: 400;
     margin-bottom: 15px;
 }
 
@@ -202,4 +202,24 @@ nav a {
 
 .hotdeal-img {
     width: 210px;
+}
+
+/* instagram section */
+.insta-content {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.insta-content .section-description {
+    width: 55%;
+    margin: auto;
+}
+
+.flower-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.insta-img {
+    width: 200px;
 }
