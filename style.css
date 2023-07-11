@@ -186,3 +186,20 @@ nav a {
 .service {
     text-align: center;
 }
+
+/* hot deals section */
+.hot-deal-container {
+    background-color: rgba(229, 84, 115, 0.05);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 200px 50px 200px;
+}
+
+.hot-deal-content {
+    text-align: center;
+}
+
+.hotdeal-img {
+    width: 210px;
+}
