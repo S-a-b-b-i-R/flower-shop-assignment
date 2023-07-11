@@ -78,10 +78,14 @@ body {
     margin-bottom: 20px;
 }
 
+.special-text {
+    color: #e55473;
+}
+
 /* navbar */
 .navbar {
     height: 80px;
-    background-color: #b30d27;
+    background-color: #c5233b80;
 }
 
 .nav-title {
@@ -92,8 +96,10 @@ body {
 
 nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 .text-primary {
@@ -102,17 +108,23 @@ nav {
 
 nav > ul {
     display: flex;
+    justify-content: flex-end;
+    gap: 30px;
     align-items: center;
 }
 
 nav li {
     list-style: none;
-    margin-right: 50px;
 }
 
 nav a {
     text-decoration: none;
     color: #ffffff;
+}
+
+nav a:hover {
+    color: #996194;
+    cursor: pointer;
 }
 
 /* banner */
@@ -265,10 +277,6 @@ footer .section-title {
     text-align: center;
     font-size: 40px;
     font-weight: 800;
-}
-
-.special-text {
-    color: #e55473;
 }
 
 footer .section-description {
