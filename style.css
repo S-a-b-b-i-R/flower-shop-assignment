@@ -24,10 +24,39 @@ body {
     padding: 10px 20px;
 }
 
+.input {
+    border-radius: 5px;
+    border: 0;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #272727;
+    background: rgba(39, 39, 39, 0.1);
+    margin-bottom: 20px;
+}
+
 .btn-primary:hover {
     background: #fff;
     color: #996194;
     cursor: pointer;
+    border: 0.5px solid #272727;
+}
+
+.btn-secondary {
+    border-radius: 5px;
+    background: #e55473;
+    border: 0;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 20px;
+}
+
+.btn-secondary:hover {
+    background: #fff;
+    color: #e55473;
+    cursor: pointer;
+    border: 0.5px solid #272727;
 }
 
 .section-with-padding {
@@ -109,22 +138,6 @@ nav a {
 
 .banner-img {
     height: 500px;
-}
-
-.btn-secondary {
-    border-radius: 5px;
-    background: #e55473;
-    border: 0;
-    color: #fff;
-    font-size: 20px;
-    font-weight: 700;
-    padding: 10px 20px;
-}
-
-.btn-secondary:hover {
-    background: #fff;
-    color: #e55473;
-    cursor: pointer;
 }
 
 /* featured flowers section */
@@ -222,4 +235,17 @@ nav a {
 
 .insta-img {
     width: 200px;
+}
+
+/* latest deals section */
+.latest-deals-container {
+    background-image: url("./FlowerAsset/Rectangle9.png");
+    height: 297px;
+    /* border: 1px solid #272727; */
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
